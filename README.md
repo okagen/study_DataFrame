@@ -18,11 +18,12 @@
     
     <img src="https://github.com/okagen/study_DataFrame/blob/master/Data/01-3_adjusted_DataFrame.png"  height="200">
     
-  - 積み上げグラフを生成。`.plot(kind='bar'・・・`
+  - 積み上げグラフを生成。`.plot(kind='bar', stacked=True,・・・`
   
     <img src="https://github.com/okagen/study_DataFrame/blob/master/Data/01-4_stacked_barchart.png" width="400">
   
-  
+---
+## study02.
   
 
   
