@@ -1,9 +1,4 @@
 # study_DataFrame
-
-![markdown_matome.PNG](https://github.com/okagen/study_DataFrame/blob/master/Data/01-1_Base_DataFrame.png)
-
-
-
 ---
 ## study01. 
 ### DataFrame内のあるフィールドに設定された要素の種類ごとにレコードを抽出し、行と列を入れ替えて新しいDataFrameを生成する。
