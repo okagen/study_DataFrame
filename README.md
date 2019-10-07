@@ -1,6 +1,6 @@
 # study_DataFrame
 ---
-## study01. 
+## study01.
 ### DataFrame内のあるフィールドに設定された要素の種類ごとにレコードを抽出し、行と列を入れ替えて新しいDataFrameを生成する。
   - CSV読み込み。`.read_csv`
   - 日時のデータが入っているフィールドをDateTime型に変換。`.to_datetime`
