@@ -27,20 +27,33 @@
 ## DataFrame内を行方向、列方向に処理して統計量を計算し、散布図を作成する。
   - CSV読み込み。`.read_csv`
   
-    <img src="https://github.com/okagen/study_DataFrame/blob/master/Data/02-1_Base_DataFrame.png" height="100">
+    <img src="https://github.com/okagen/study_DataFrame/blob/master/Data/02-1_Base_DataFrame.png" height="200">
     
     <img src="https://github.com/okagen/study_DataFrame/blob/master/Data/00_arrow.png">  
     
-    <img src="https://github.com/okagen/study_DataFrame/blob/master/Data/02-2_Adjusted_DataFrame.png"  height="100">
-    
-    <img src="https://github.com/okagen/study_DataFrame/blob/master/Data/00_arrow.png">
-    
-    <img src="https://github.com/okagen/study_DataFrame/blob/master/Data/02-3_Rate_DataFrame.png"  height="100">
+    <img src="https://github.com/okagen/study_DataFrame/blob/master/Data/02-2_Adjusted_DataFrame.png"  height="200">
+
 
   - DataFrameの行ごとにデータ処理。
       - 1行ずつ評価し、データ抽出。`for idx, df_select in df_original():`
+      
+      <img src="https://github.com/okagen/study_DataFrame/blob/master/Data/00_arrow.png">
+      
+      <img src="https://github.com/okagen/study_DataFrame/blob/master/Data/02-3_Rate_DataFrame.png"  height="200">      
+            
       - 一括で評価し、indexと列名を頼りに、元のデータで上書きする。`df_new = df_new.update(df_original)`
+      
+      <img src="https://github.com/okagen/study_DataFrame/blob/master/Data/00_arrow.png">
+      
+      <img src="https://github.com/okagen/study_DataFrame/blob/master/Data/02-4_Extract_DataFrame.png"  height="200">
+      
+      <img src="https://github.com/okagen/study_DataFrame/blob/master/Data/00_arrow.png">
+      
+      <img src="https://github.com/okagen/study_DataFrame/blob/master/Data/02-5_Update_DataFrame.png"  height="200">
+      
   - DataFrameの列ごとにデータ処理。` df.sum(axis=1)`
   - 列ごとに統計量計算。
   - 平均と分散を使って散布図作成。
+  
+  <img src="https://github.com/okagen/study_DataFrame/blob/master/Data/02-6_Scatter_plot.png"  height="200">
   
