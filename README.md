@@ -57,3 +57,34 @@
   
   <img src="https://github.com/okagen/study_DataFrame/blob/master/Data/02-6_Scatter_plot.png"  height="200">
   
+---
+## study03. 
+## 3-1. 複数のcsvファイルを読み込み、必要な計算をして新しいcsvファイルを生成する。
+## 3-2. 年毎にグループ化し、棒グラフ、散布図行列、相関係数を求める。
+  - DataFrame生成
+
+    <img src="https://github.com/okagen/study_DataFrame/blob/master/Data/03-3-0_csv_data.png"  height="150">
+  
+    <img src="https://github.com/okagen/study_DataFrame/blob/master/Data/00_arrow.png">
+  
+    <img src="https://github.com/okagen/study_DataFrame/blob/master/Data/03-3-1_DataFrame.png"  height="150">
+
+  - グループ化して、棒グラフ生成。
+
+    <img src="https://github.com/okagen/study_DataFrame/blob/master/Data/03-3-2-1_groupBy.png"  height="150">
+  
+    <img src="https://github.com/okagen/study_DataFrame/blob/master/Data/00_arrow.png">
+  
+    <img src="https://github.com/okagen/study_DataFrame/blob/master/Data/03-3-2-2_barChart.png"  height="150">
+
+  - 散布図行列、相関係数。
+  
+    <img src="https://github.com/okagen/study_DataFrame/blob/master/Data/03-3-2-3_seaborn_pairplot.png"  height="150">
+    、
+    <img src="https://github.com/okagen/study_DataFrame/blob/master/Data/03-3-2-4_correlation.png"  height="150">
+  
+  
+
+
+
+
