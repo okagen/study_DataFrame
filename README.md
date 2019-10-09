@@ -63,14 +63,25 @@
   - DataFrameの中身を調整。`df.drop()` `df.replace()` `df.astype()` `df.groupby()` `df.rename()` ` df.reset_index`
   - DataFrameを連結する。`pd.concat([dfA, dfB], sort=False)`
 
-### 3-2. 年毎にグループ化し、棒グラフ、散布図行列、相関係数を求める。
-  - グループ化して、棒グラフを生成。 `.plot(kind='bar'・・・)`
-
     <img src="https://github.com/okagen/study_DataFrame/blob/master/Data/03-3-0_csv_data.png"  height="150">
   
     <img src="https://github.com/okagen/study_DataFrame/blob/master/Data/00_arrow.png">
   
     <img src="https://github.com/okagen/study_DataFrame/blob/master/Data/03-3-1_DataFrame.png"  height="150">  
+    
+### 3-2. 年毎にグループ化し、棒グラフ、散布図行列、相関係数を求める。
+  - グループ化して、棒グラフを生成。 `.plot(kind='bar'・・・)`
+
+    <img src="https://github.com/okagen/study_DataFrame/blob/master/Data/03-3-2-1_groupBy.png"  height="150">
+  
+    <img src="https://github.com/okagen/study_DataFrame/blob/master/Data/00_arrow.png">
+  
+    <img src="https://github.com/okagen/study_DataFrame/blob/master/Data/03-3-2-2_barChart.png"  height="150">  
+  
+    <img src="https://github.com/okagen/study_DataFrame/blob/master/Data/00_arrow.png">
+
+    <img src="https://github.com/okagen/study_DataFrame/blob/master/Data/03-3-2-3_seaborn_pairplot.png"  height="150">  
+    
 
   - 散布図行列、相関係数。 `seaborn.pairplot()` `seaborn.heatmap`
     
