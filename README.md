@@ -77,11 +77,6 @@
     <img src="https://github.com/okagen/study_DataFrame/blob/master/Data/00_arrow.png">
   
     <img src="https://github.com/okagen/study_DataFrame/blob/master/Data/03-3-2-2_barChart.png"  height="150">  
-  
-    <img src="https://github.com/okagen/study_DataFrame/blob/master/Data/00_arrow.png">
-
-    <img src="https://github.com/okagen/study_DataFrame/blob/master/Data/03-3-2-3_seaborn_pairplot.png"  height="150">  
-    
 
   - 散布図行列、相関係数。 `seaborn.pairplot()` `seaborn.heatmap`
     
