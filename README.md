@@ -78,10 +78,10 @@
   
     <img src="https://github.com/okagen/study_DataFrame/blob/master/Data/03-3-2-2_barChart.png"  height="150">  
 
-  - 散布図行列、相関係数。 `seaborn.pairplot()` `seaborn.heatmap`
+  - 散布図行列、相関係数。 `seaborn.pairplot()` `seaborn.heatmap()`
     
     <img src="https://github.com/okagen/study_DataFrame/blob/master/Data/03-3-2-3_seaborn_pairplot.png"  height="150">
-    
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <img src="https://github.com/okagen/study_DataFrame/blob/master/Data/03-3-2-4_correlation.png"  height="150">
   
   
