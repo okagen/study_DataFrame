@@ -85,13 +85,19 @@
     <img src="https://github.com/okagen/study_DataFrame/blob/master/Data/03-3-2-4_correlation.png"  height="150">
   
 ### 3-2. 
-  - ・・・
+  - csvファイルをDataFrameに読みこむ。
+  - groupbyでMultiIndex DataFrameを作り処理をする。その際、他のフィールドは平均値としておく。`df.groupby(['Year','Region']).mean()`
 
     <img src="https://github.com/okagen/study_DataFrame/blob/master/Data/03-3-3-1_multi_index.png"  height="150">
+    
+  - levelを指定してイテレーションし処理をする。`for idx, df_select in df.groupby(level=[0]):`
+  - matplotlib.pyplotを用いてグラフ化。`.plot(kind='line'・・・)`
 
-    <img src="https://github.com/okagen/study_DataFrame/blob/master/Data/03-3-3-2_line_chart_wo_data_adjustment.png"  height="150">
+    <img src="https://github.com/okagen/study_DataFrame/blob/master/Data/03-3-3-2_line_chart_wo_data_adjustment.png" width="150">
 
-    <img src="https://github.com/okagen/study_DataFrame/blob/master/Data/03-3-3-3_line_chart_w_data_adjustment.png"  height="150">
+  - さらにイテレーションし処理をしグラフ化。
+  
+    <img src="https://github.com/okagen/study_DataFrame/blob/master/Data/03-3-3-3_line_chart_w_data_adjustment.png"  widht="150">
 
 
     
