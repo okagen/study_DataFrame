@@ -84,7 +84,7 @@
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <img src="https://github.com/okagen/study_DataFrame/blob/master/Data/03-3-2-4_correlation.png"  height="150">
   
-### 3-2. 
+### 3-3. MultiIndex DataFrameのlevelを指定して部分的にDataFrameを取得しイテレーション処理を行ってグラフ化。
   - csvファイルをDataFrameに読みこむ。
   - groupbyでMultiIndex DataFrameを作り処理をする。その際、他のフィールドは平均値としておく。`df.groupby(['Year','Region']).mean()`
 
