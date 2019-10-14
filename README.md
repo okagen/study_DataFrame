@@ -25,7 +25,8 @@ DataFrame内のあるフィールドに設定された要素の種類ごとに�
   
 ---
 ## study02. 
-## DataFrame内を行方向、列方向に処理して統計量を計算し、散布図を作成する。
+## Process the DataFrame in the row and column directions,  then calculate the statistics,  and create a scatter plot.
+DataFrame内を行方向、列方向に処理して統計量を計算し、散布図を作成する。
   - CSV読み込み。`.read_csv`
   
     <img src="https://github.com/okagen/study_DataFrame/blob/master/Data/02-1_Base_DataFrame.png" height="150">
@@ -60,7 +61,8 @@ DataFrame内のあるフィールドに設定された要素の種類ごとに�
   
 ---
 ## study03. 
-### 3-1. 複数のcsvファイルを読み込み、必要な計算をして新しいcsvファイルを生成する。
+### 3-1. Load some CSV files, and execute some necessary calculations, and generate a new CSV file.
+複数のcsvファイルを読み込み、必要な計算をして新しいcsvファイルを生成する。
   - DataFrameの中身を調整。`df.drop()` `df.replace()` `df.astype()` `df.groupby()` `df.rename()` ` df.reset_index`
   - DataFrameを連結する。`pd.concat([dfA, dfB], sort=False)`
 
@@ -70,8 +72,10 @@ DataFrame内のあるフィールドに設定された要素の種類ごとに�
   
     <img src="https://github.com/okagen/study_DataFrame/blob/master/Data/03-3-1_DataFrame.png"  height="150">  
     
-### 3-2. 年毎にグループ化し、棒グラフ、散布図行列、相関係数を求める。
-  - グループ化して、棒グラフを生成。 `.plot(kind='bar'・・・)`
+### 3-2. Group data in DataFreme by year to draw a bar chart, a scatterplot matrice, and a correlation coefficient.
+年毎にグループ化し、棒グラフ、散布図行列、相関係数を求める。
+
+- グループ化して、棒グラフを生成。 `.plot(kind='bar'・・・)`
 
     <img src="https://github.com/okagen/study_DataFrame/blob/master/Data/03-3-2-1_groupBy.png"  height="150">
   
@@ -85,7 +89,9 @@ DataFrame内のあるフィールドに設定された要素の種類ごとに�
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <img src="https://github.com/okagen/study_DataFrame/blob/master/Data/03-3-2-4_correlation.png"  height="150">
   
-### 3-3. MultiIndex DataFrameのlevelを指定して部分的にDataFrameを取得しイテレーション処理を行ってグラフ化。
+### 3-3. Specify the level in MultiIndex DataFrame and acquire a subset of the DataFrame, then iterated to create some graphs.
+MultiIndex DataFrameのlevelを指定して部分的にDataFrameを取得しイテレーション処理を行ってグラフ化。
+
   - csvファイルをDataFrameに読みこむ。
   - groupbyでMultiIndex DataFrameを作り処理をする。その際、他のフィールドは平均値としておく。`df.groupby(['Year','Region']).mean()`
 
