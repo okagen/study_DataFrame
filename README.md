@@ -103,8 +103,3 @@ MultiIndex DataFrameのlevelを指定して部分的にDataFrameを取得しイ�
     <img src="https://github.com/okagen/study_DataFrame/blob/master/Data/03-3-3-2_line_chart_wo_data_adjustment.png" height="200">
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp
     <img src="https://github.com/okagen/study_DataFrame/blob/master/Data/03-3-3-3_line_chart_w_data_adjustment.png" height="200">
-
-
-    
-
-
